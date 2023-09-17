@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".OpenWeather">
+
+    <TextView
+        android:id="@+id/textDark"
+        android:layout_width="214dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:text="Press the button to get a Dark Joke"
+        android:textAlignment="center"
+        />
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:contentDescription="TODO" />
+
+    <EditText
+        android:id="@+id/locationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Ange plats..."
+        android:inputType="text"
+        android:layout_marginBottom="16dp"
+         />
+
+    <Button
+        android:id="@+id/sökButton"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Sök" />
+
+</LinearLayout>
